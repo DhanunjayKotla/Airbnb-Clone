@@ -1,0 +1,31 @@
+.footer2{
+    border-top: thin solid rgb(223, 217, 217);
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    padding: 10px 0px 4px 0px;
+    display: none;
+}
+
+.fo{
+    display: flex;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+.fo a{
+    text-decoration: none;
+    color: grey;
+}
+
+.fo i{display: block; text-align: center; font-size: 20px;}
+
+.fo p{
+    font-size: 10px;
+}
+
+.fo > * {
+    min-width: max-content;
+    padding: 0px 30px;
+}

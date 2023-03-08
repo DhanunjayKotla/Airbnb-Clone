@@ -1,0 +1,37 @@
+/* footer */
+.footer{
+    padding: 5px 37px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-top: thin solid rgb(209, 203, 203);
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
+    z-index: 6;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer div:nth-child(1) */*:not(.footer div:nth-child(1) a:nth-last-child(1))*/ {
+    margin-right: 15px;
+}
+
+.footer div:nth-child(2){
+    min-width: max-content;
+}
+
+.footer .f{
+    margin-right: 20px;
+    font-weight: bold;
+}

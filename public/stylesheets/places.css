@@ -1,0 +1,86 @@
+/* placecard */
+.placecards{
+    padding: 0px 37px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 35px;
+    margin: 20px 0px;
+}
+
+.placecards a{
+    text-decoration: none;
+    color: black;
+}
+
+.placecard{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+
+.placecard img{
+   width: 100%;
+   aspect-ratio: 1 / 1;
+   border-radius: 13px;
+   pointer-events: none;
+}
+
+.placecard .heart{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    color: white;
+    font-size: 1.5vw;
+    pointer-events: none;
+}
+
+.placecards .right{
+    display: none;
+    position: absolute;
+    top: 33%;
+    right: 17px;
+    font-size: 25px;
+    color: white;
+}
+
+.placecards .left{
+    display: none;
+    position: absolute;
+    top: 33%;
+    left: 17px;
+    font-size: 25px;
+    color: white;
+}
+
+.right:hover, .left:hover {
+    font-size: 27px;
+}
+
+.placecard .placeDetails{
+    margin: 12px 0px 8px;
+    pointer-events: none;
+}
+
+.placeDetails > * {
+    margin-bottom: 3px;
+}
+
+.placeDetails div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    font-weight:  bold;
+    color: black;
+}
+
+.placecard span{
+    font-weight: bold;
+}
+
+.placecard div:last-of-type{
+    pointer-events: none;
+}
+
+.placeDetails div:nth-child(2), .placeDetails div:nth-child(3) {
+    color: rgb(105, 103, 103);
+}

@@ -1,0 +1,117 @@
+/* login popup */
+.fullscreen-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.loginPopup{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 580px;
+    border-radius: 13px;
+    background-color: white;
+    z-index: 99999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginPopup .a{
+    display: flex;
+    height: 63px;
+    background-color: white;
+    padding: 0px 25px;
+    border-bottom: thin solid rgb(235, 230, 230);
+    border-radius: 13px;
+    font-weight: bold;
+    line-height: 70px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.loginPopup .aa{
+    cursor: pointer;
+}
+
+.loginPopup .ab{
+    margin: 0px auto;
+}
+
+.loginPopup .b{
+    overflow-y: scroll;
+    display: grid;
+    padding: 0px 25px;
+    margin-top: 15px;
+}
+
+.loginPopup .bb select{
+    width: 100%;
+    height: 60px;
+    border: thin solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 10px;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+.loginPopup .bb input{
+    width: 95.8%;
+    height: 56px;
+    padding: 0px 10px;
+    border: thin solid grey;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.2em;
+}
+
+.loginPopup .bc{
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.loginPopup .bd button{
+    margin: 20px 0px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(240, 58, 88);
+    color: white;
+    font-weight: bold;
+}
+
+.loginPopup .bf{
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+}
+
+.loginPopup .be{
+    display: flex;
+    max-width: 100%;
+    height: 50px;
+    border: thin solid black;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.loginPopup .bea{
+    padding-top: 10px;
+}
+
+.loginPopup .beb{
+    margin: 0px auto;
+    font-size: 0.9em;
+}

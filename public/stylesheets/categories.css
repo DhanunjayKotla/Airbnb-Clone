@@ -1,0 +1,83 @@
+/* icon card */
+.categories{
+    position: relative;
+    border-bottom: thin solid rgb(230, 225, 225);
+    background-color: white;
+    padding: 20px 167px 0px 37px;
+}
+
+.icons{
+    display: flex;
+    height: 75px;
+    overflow-x: auto;
+}
+
+.icons::-webkit-scrollbar {
+    display: none;
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(138, 132, 132);
+}
+
+.icons a:hover{
+    color: black;
+}
+
+.places{
+    flex: 0 0 auto;
+    /* background-color: aqua; */
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-right: 30px;
+    width: max-content;
+    height: 70px;
+    margin-top: auto;
+}
+
+.places:hover{
+    border-bottom: thin solid rgb(172, 165, 165);
+}
+
+.places i{
+    display: block;
+    padding-bottom: 3px;
+    /* padding-top: 20px; */
+    font-size: 25px;
+}
+
+/* filters */
+.filters{
+    display: flex;
+    width: 130px;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    margin-right: 37px;
+}
+
+.filters .right{
+    font-size: 25px;
+    color: rgb(148, 142, 142);
+}
+
+.filters .right:hover{
+    font-size: 28px;
+}
+
+.fil {
+    background-color: white;
+    border: thin solid rgb(172, 167, 167);
+    border-radius: 15px;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.fil i{
+    margin-right: 8px;
+}

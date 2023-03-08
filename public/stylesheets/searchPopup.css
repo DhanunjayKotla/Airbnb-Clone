@@ -1,0 +1,205 @@
+.searchPopup{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: white;
+    z-index: 100; 
+    width: 100%;
+    padding: 0px 37px 10px 37px;
+    border-top: thin solid rgb(230, 224, 224);
+    box-sizing: border-box;
+}
+.a{
+    display: flex;
+    height: 80px;
+}
+.a .lastNav{
+    margin: auto 0px;
+}
+.searchPopup .aa{
+    display: flex;
+    height: fit-content;
+    margin: auto auto;
+    position: relative;
+    left: 8%;
+    font-weight: 500;
+}
+.searchPopup .aa > *{
+    margin-right: 25px;
+    cursor: pointer;
+    /* border-bottom: 2px solid black; */
+}
+.searchPopup .aa > *:hover{
+    color: grey;
+}
+.aMb{
+    display: none;
+    width: max-content;
+    position: relative;
+    left: -1%;
+    margin: 10px auto 20px auto;
+}
+.searchPopup .b{
+    width: 800px;
+    height: 70px;
+    border: thin solid rgb(216, 211, 211);
+    border-radius: 50px;
+    margin: 0px auto;
+    display: flex;
+    position: relative;
+} 
+.searchPopup .ba {
+    flex: 1 1 auto;
+    height: 79%;
+    padding: 15px 0px 0px 25px ;
+    border-radius: 50px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.searchPopup .ba:hover{
+    background-color: rgb(236, 235, 235);
+}
+.searchPopup .s1{
+    display: none;
+}
+.searchPopup .ca:hover{
+    background-color: rgb(236, 235, 235);
+}
+.searchPopup .searchIcon{
+    position: absolute;
+    top: 10px;
+    left: 93%;
+    height: 50px;
+    width: 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 11px 0px 0px 18px;
+}
+.searchPopup .cb{
+    display: none;
+    height: 480px;
+    width: 500px;
+    border-radius: 35px;
+    background-color: white;
+    position: absolute;
+    top: 85px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+    border: thin solid rgb(196, 191, 191);
+}
+.searchPopup .cbaa{
+    font-weight: 600;
+}
+.searchPopup .cbab{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    padding-top: 20px;
+}
+.searchPopup .cbab img{
+    /* border: thin solid black; */
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: thin solid rgb(201, 197, 197);
+    cursor: pointer;
+}
+.searchPopup .cbab img:hover{
+    border: thin solid black;
+}
+.searchPopup .cc{
+    display: none;
+    height: 500px;
+    width: 800px;
+    border-radius: 35px;
+    background-color: white;
+    position: absolute;
+    top: 85px;
+    padding: 35px 50px;
+    box-sizing: border-box;
+    border: thin solid rgb(204, 200, 200);
+}
+.searchPopup .cca{
+    width: 45%;
+    background-color: rgb(231, 231, 231);
+    box-sizing: border-box;
+    padding: 5px 5px;
+    border-radius: 30px;
+    display: flex; 
+    justify-content: space-between;
+    margin: 0px auto 40px auto;
+}
+.searchPopup .ccaa{
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+.searchPopup .ccab{
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.ccb{
+    display: flex;
+    font-size: 0.9em;
+    justify-content: space-between;
+}
+.ccba{
+    text-align: center;
+}
+.ccbaa{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 22px;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+.ccbab{
+    text-align: center;
+    cursor: pointer;
+}
+.ccc{
+    margin-top: 40px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.ccc > *{
+    border-radius: 30px;
+    padding: 5px;
+    border: thin solid rgb(223, 217, 217);
+    cursor: pointer;
+}
+
+
+.searchPopup .cd{
+    display: none;
+    height: 400px;
+    width: 420px;
+    border-radius: 35px;
+    background-color: white;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    border: thin solid rgb(209, 204, 204);
+}
+.searchPopup .cda{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid rgb(212, 208, 208)
+    /* background-color: red; */
+}
+.searchPopup .cdab i{
+    color: grey;
+    cursor: pointer;
+}
+.searchPopup .cdab i:hover{
+    color: black;
+}
